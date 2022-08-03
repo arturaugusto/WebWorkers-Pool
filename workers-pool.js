@@ -1,4 +1,4 @@
-function workerPool(fun) {
+function workersPool(fun) {
     /**
      * fun: Function
      * */
