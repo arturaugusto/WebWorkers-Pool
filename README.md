@@ -48,3 +48,12 @@ let wp = new workersPool(fun)
 })
 
 ```
+ Usage output on my computer:
+ 
+ 
+ ```
+(10) [100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000, 900000, 1000000]
+Total time for workersPool (ms):  82.79999995231628
+(10) [100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000, 900000, 1000000]
+Total time without workersPool (ms):  1123.5
+ ```
