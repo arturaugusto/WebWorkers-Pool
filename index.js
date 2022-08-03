@@ -81,4 +81,4 @@ self.onmessage=function(e){
     this.run = run
 }
 
-export workerPool
+export {workerPool}
