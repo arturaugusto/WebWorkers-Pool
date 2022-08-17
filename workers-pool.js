@@ -1,4 +1,4 @@
-function workersPool(fun) {
+function WorkersPool(fun) {
     /**
      * fun: Function
      * */
@@ -81,4 +81,4 @@ self.onmessage=function(e){
     this.run = run
 }
 
-export {workerPool}
+export {WorkersPool}
