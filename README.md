@@ -28,7 +28,7 @@ let args = [
 let ini = performance.now()
 
 // create new working pool for function
-let wp = new workersPool(fun)
+let wp = new WorkersPool(fun)
 
 // run for defined arguments
 .run(args)
